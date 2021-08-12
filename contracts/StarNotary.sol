@@ -13,10 +13,10 @@ contract StarNotary is ERC721 {
 
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
-    string public name = "UdacityCourse";
+    string public constant name = "UdacityCourse";
 
     // symbol: Is a short string like 'USD' -> 'American Dollar'
-    string public symbol = "IND";
+    string public constant symbol = "IND";
 
     
 
